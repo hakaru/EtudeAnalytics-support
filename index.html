@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EtudeAnalytics Support</title>
+  <meta name="description" content="Support page for EtudeAnalytics." />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; }
+    header { padding: 28px 16px; border-bottom: 1px solid #eee; }
+    main { max-width: 920px; margin: 0 auto; padding: 20px 16px 56px; }
+    nav a { margin-right: 12px; }
+    .lang { margin-top: 10px; }
+    .card { border: 1px solid #eee; border-radius: 10px; padding: 14px 16px; margin: 14px 0; }
+    h1 { margin: 0; font-size: 28px; }
+    h2 { margin-top: 30px; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+    footer { border-top: 1px solid #eee; padding: 18px 16px; color: #666; font-size: 14px; }
+    .muted { color: #666; }
+    .pill { display: inline-block; border: 1px solid #ddd; border-radius: 999px; padding: 2px 10px; font-size: 13px; margin-left: 8px; color: #444; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="max-width: 920px; margin: 0 auto;">
+      <h1>EtudeAnalytics Support <span class="pill">APP_VERSION_HERE</span></h1>
+      <div class="muted">Practice tracking & analytics for etudes/pieces.</div>
+      <div class="lang">
+        <strong>Language:</strong>
+        <a href="#en">English</a>
+        <a href="#ja">日本語</a>
+        <span style="margin-left:12px;" class="muted">Privacy: <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="en">
+      <h2>English</h2>
+
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:SUPPORT_EMAIL_HERE">SUPPORT_EMAIL_HERE</a></p>
+        <p class="muted">When contacting us, please include: iOS version, device model, app version, and steps to reproduce.</p>
+      </div>
+
+      <div class="card">
+        <h3>FAQ</h3>
+        <p><strong>Q: The app doesn’t detect practice.</strong><br>
+        A: Check microphone permission (Settings → Privacy & Security → Microphone). Increase sensitivity/threshold settings in the app, and test in a quiet environment.</p>
+
+        <p><strong>Q: Sessions stop too early.</strong><br>
+        A: Increase the inactivity timeout. If you pause often, consider enabling manual start/stop.</p>
+
+        <p><strong>Q: MIDI isn’t working.</strong><br>
+        A: Verify your device is connected and recognized by iOS. For Bluetooth MIDI, ensure pairing is complete and try reconnecting.</p>
+
+        <p><strong>Q: Does the app record or upload audio?</strong><br>
+        A: By default, audio is processed locally for detection and not saved or uploaded. See the <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+
+      <div class="card">
+        <h3>Troubleshooting</h3>
+        <ol>
+          <li>Force quit the app and reopen.</li>
+          <li>Check permissions (Microphone / Bluetooth) and re-enable if needed.</li>
+          <li>Restart the iPhone if detection behaves unexpectedly.</li>
+          <li>If the issue persists, contact support with details.</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h3>Permissions</h3>
+        <ul>
+          <li><strong>Microphone</strong>: Used for audio-based practice detection (optional; only when enabled).</li>
+          <li><strong>Bluetooth</strong>: Used for Bluetooth MIDI connections (optional; only when enabled).</li>
+          <li><strong>Health</strong>: Only if you enable writing practice time to Health (if supported in your version).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Data & Exports</h3>
+        <p>Sessions are stored on your device. You can export your data from the app settings (CSV/JSON), depending on your app version.</p>
+      </div>
+
+      <p class="muted">Last updated: LAST_UPDATED_DATE_HERE</p>
+    </section>
+
+    <hr style="margin:40px 0; border:0; border-top:1px solid #eee;" />
+
+    <section id="ja">
+      <h2>日本語</h2>
+
+      <div class="card">
+        <h3>お問い合わせ</h3>
+        <p>Email: <a href="mailto:SUPPORT_EMAIL_HERE">SUPPORT_EMAIL_HERE</a></p>
+        <p class="muted">お問い合わせの際は「iOSのバージョン／端末名／アプリのバージョン／再現手順」を添えてください。</p>
+      </div>
+
+      <div class="card">
+        <h3>よくある質問</h3>
+        <p><strong>Q: 演奏が検出されません。</strong><br>
+        A: マイク権限（設定 → プライバシーとセキュリティ → マイク）を確認してください。アプリ内の感度/しきい値を調整し、静かな環境でテストしてください。</p>
+
+        <p><strong>Q: セッションがすぐに終了してしまいます。</strong><br>
+        A: 無音タイムアウトを長くしてください。休憩が多い場合は手動開始/停止も検討してください。</p>
+
+        <p><strong>Q: MIDIが動きません。</strong><br>
+        A: 端末接続を確認し、iOS側で認識されているか確認してください。Bluetooth MIDIの場合はペアリング完了後、再接続を試してください。</p>
+
+        <p><strong>Q: 音声は録音/アップロードされますか？</strong><br>
+        A: 既定では音声は端末内で検出処理に使用され、保存/アップロードはしません。詳細は <a href="privacy.html">プライバシーポリシー</a> をご覧ください。</p>
+      </div>
+
+      <div class="card">
+        <h3>トラブルシューティング</h3>
+        <ol>
+          <li>アプリを完全に終了して再起動</li>
+          <li>権限（マイク/Bluetooth）を確認し、必要なら再許可</li>
+          <li>端末を再起動</li>
+          <li>解決しない場合は上記メールへご連絡ください</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h3>権限について</h3>
+        <ul>
+          <li><strong>マイク</strong>: 音声ベースの練習検出に使用（任意／有効化時のみ）</li>
+          <li><strong>Bluetooth</strong>: Bluetooth MIDI接続に使用（任意／有効化時のみ）</li>
+          <li><strong>ヘルスケア</strong>: ヘルスケアへの記録を有効化した場合のみ（対応バージョンのみ）</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>データとエクスポート</h3>
+        <p>セッション情報は端末内に保存されます。アプリ設定からCSV/JSONでエクスポート可能です（対応バージョンのみ）。</p>
+      </div>
+
+      <p class="muted">最終更新日: LAST_UPDATED_DATE_HERE</p>
+    </section>
+  </main>
+
+  <footer>
+    <div style="max-width: 920px; margin: 0 auto;">
+      <div>EtudeAnalytics Support</div>
+      <div class="muted">This site is hosted on GitHub Pages.</div>
+    </div>
+  </footer>
+</body>
+</html>
