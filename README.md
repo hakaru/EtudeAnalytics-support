@@ -19,7 +19,7 @@ Your URLs will look like:
 Replace these placeholders in the HTML files:
 - `SUPPORT_EMAIL_HERE`
 - `APP_VERSION_HERE`
-- `LAST_UPDATED_DATE_HERE`
+- `LAST_UPDATED_DATE_HERE` (currently set to `2026-01-16`)
 
 ## Files
 - `index.html` — Support page (EN/JA)
